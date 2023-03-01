@@ -231,5 +231,5 @@ app
 
 app
   .listen(port, () => console.log(
-    `App listening to port ${port}, Running at: ${new Date().toISOString().replace('T', ' ').substring(0, 19)}`
+    `App listening to port http://localhost:${port}, Running at: ${new Date().toISOString().replace('T', ' ').substring(0, 19)}`
     ));
